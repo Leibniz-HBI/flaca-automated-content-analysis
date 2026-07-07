@@ -12,6 +12,7 @@ The references below were selected for relevance to automated content analysis, 
 
 ## FLACA and closely related work
 
+- Fedtke, C., Wiedemann, G., & Besio, C. (2026). Argument Mining for Organizational Research: A Computer-Aided Analysis of Organizational Talk. *Organizational Research Methods*, Online First. [link](https://doi.org/10.1177/10944281261453948)
 - Rieger, J., Yanchenko, K., Ruckdeschel, M., von Nordheim, G., Kleinen-von Königslöw, K., & Wiedemann, G. (2024). Few-shot learning for automated content analysis: Efficient coding of arguments and claims in the debate on arms deliveries to Ukraine. *Studies in Communication and Media, 13*(1), 72–100. [link](https://doi.org/10.5771/2192-4007-2024-1-72)
 - Rieger, J., Ruckdeschel, M., & Wiedemann, G. (2025). PETapter: Leveraging PET-style classification heads for modular few-shot parameter-efficient fine-tuning. *Proceedings of KONVENS 2025*, 333–348. [link](https://aclanthology.org/2025.konvens-1.29/)
 - Ruckdeschel, M. (2025). Just Read the Codebook! Make Use of Quality Codebooks in Zero-Shot Classification of Multilabel Frame Datasets. *Proceedings of COLING 2025*, 6317–6337. [link](https://aclanthology.org/2025.coling-main.422/)
