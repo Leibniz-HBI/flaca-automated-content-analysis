@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="320" viewBox="0 0 850 320" role="img" aria-labelledby="title desc">
+<title id="title">The imbalance trap</title>
+<desc id="desc">Conceptual bar chart showing how small false positive rates can dominate estimates when the target category is rare.</desc>
+<style>.axis{stroke:#222;stroke-width:2}.bar{fill:#e8e8e8;stroke:#222;stroke-width:1}.bar2{fill:#cfcfcf;stroke:#222;stroke-width:1}.txt{font:16px sans-serif}.small{font:13px sans-serif;fill:#333}</style>
+<line x1="80" y1="270" x2="790" y2="270" class="axis"/><line x1="80" y1="270" x2="80" y2="40" class="axis"/>
+<text x="435" y="305" text-anchor="middle" class="txt">Rare target categories in real media corpora</text>
+<text x="20" y="155" transform="rotate(-90 20 155)" text-anchor="middle" class="txt">Relative volume</text>
+<rect x="160" y="70" width="130" height="200" class="bar"/><text x="225" y="62" text-anchor="middle" class="small">No target</text>
+<rect x="360" y="242" width="130" height="28" class="bar2"/><text x="425" y="234" text-anchor="middle" class="small">True positives</text>
+<rect x="560" y="205" width="130" height="65" class="bar2"/><text x="625" y="197" text-anchor="middle" class="small">False positives</text>
+<text x="625" y="105" text-anchor="middle" class="txt">Small error rates can still</text><text x="625" y="130" text-anchor="middle" class="txt">inflate prevalence estimates.</text>
+<path d="M535 200 C500 170, 455 155, 430 240" fill="none" stroke="#222" stroke-width="2" marker-end="url(#m)"/><defs><marker id="m" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#222"/></marker></defs>
+</svg>

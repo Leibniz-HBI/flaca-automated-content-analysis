@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+<title id="title">Model choice map for automated content analysis</title>
+<desc id="desc">A two-dimensional map distinguishing low and high task complexity and low and high available training data.</desc>
+<style>.axis{stroke:#222;stroke-width:2}.box{fill:#fafafa;stroke:#333;stroke-width:2;rx:14}.label{font:18px sans-serif;fill:#111}.small{font:14px sans-serif;fill:#333}.region{fill:#f2f2f2;stroke:#999;stroke-width:1}</style>
+<line x1="110" y1="350" x2="800" y2="350" class="axis"/><line x1="110" y1="350" x2="110" y2="60" class="axis"/>
+<text x="455" y="402" text-anchor="middle" class="label">More reliable labelled training data →</text>
+<text x="33" y="210" transform="rotate(-90 33 210)" text-anchor="middle" class="label">Higher conceptual/contextual complexity →</text>
+<rect x="140" y="240" width="260" height="85" class="region"/><text x="270" y="270" text-anchor="middle" class="label">Prompted LLM</text><text x="270" y="296" text-anchor="middle" class="small">good for scoping, simple labels,</text><text x="270" y="316" text-anchor="middle" class="small">must validate before scaling</text>
+<rect x="500" y="240" width="260" height="85" class="region"/><text x="630" y="270" text-anchor="middle" class="label">Supervised SLM</text><text x="630" y="296" text-anchor="middle" class="small">strong when labels are stable</text><text x="630" y="316" text-anchor="middle" class="small">and validation data exists</text>
+<rect x="140" y="90" width="260" height="105" class="region"/><text x="270" y="122" text-anchor="middle" class="label">Human-first / hybrid</text><text x="270" y="150" text-anchor="middle" class="small">do not outsource vague</text><text x="270" y="170" text-anchor="middle" class="small">constructs to a model</text></rect>
+<rect x="500" y="90" width="260" height="105" class="region"/><text x="630" y="122" text-anchor="middle" class="label">Fine-tuned + audited</text><text x="630" y="150" text-anchor="middle" class="small">domain adaptation, PEFT,</text><text x="630" y="170" text-anchor="middle" class="small">out-of-sample tests</text>
+<text x="108" y="375" text-anchor="middle" class="small">few / none</text><text x="800" y="375" text-anchor="middle" class="small">many</text><text x="85" y="350" text-anchor="end" class="small">low</text><text x="85" y="65" text-anchor="end" class="small">high</text>
+</svg>

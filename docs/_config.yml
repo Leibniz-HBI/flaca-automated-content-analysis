@@ -1,0 +1,9 @@
+title: FLACA Best Practice Tutorial
+description: Automated Content Analysis in Communication Science
+theme: minima
+markdown: kramdown
+header_pages:
+  - index.md
+  - 09-checklists.md
+  - resources.md
+  - references.md
