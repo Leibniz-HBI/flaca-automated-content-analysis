@@ -6,6 +6,11 @@ FLACA makes recent advances in Natural Language Processing accessible for automa
 
 The tutorials in this collection provide practical e-learning resources for communication scientists who want to apply, evaluate, and further develop these methods in their own research. They cover workflows for automated content analysis, including fine-tuning smaller language models and prompting larger models, and are connected to FLACA's broader aim of strengthening data competencies for young academics through case studies, best practices, software, publications, and methods workshops.
 
+## Best Practice Manual
+
+Based on works and findings from FLACA, we compiled a comprehensive collection of best practices to approach automated content analysis:
+[FLACA Best Practice Manual](https://leibniz-hbi.github.io/flaca-automated-content-analysis/)
+
 ## Tutorial Overview
 
 The course consists of six tutorials that build from basic programming skills to applied automated content analysis workflows:
