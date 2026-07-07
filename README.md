@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1235566388.svg)](https://doi.org/10.5281/zenodo.21250998)
+
 # FLACA Automated Content Analysis Tutorials
 
 This repository contains a collection of Python notebooks developed as an outcome of the consortium project **Few-Shot Learning for Automatic Content Analysis in Communication Studies (FLACA)**.
