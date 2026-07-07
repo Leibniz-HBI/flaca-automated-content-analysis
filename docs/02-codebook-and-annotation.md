@@ -8,7 +8,7 @@ title: "2. Codebook and Annotation"
 
 # 2. Codebook and annotation
 
-A codebook is not only documentation; it is the central bridge between theory, human annotation, model input, and validation. FLACA’s central methodological translation is to make codebooks usable both for trained coders and for computational workflows.
+A codebook does more than document categories. It connects theory, human annotation, model input, and validation. A key FLACA lesson is that codebooks need to work for trained coders and for computational workflows.
 
 ## A model-ready codebook contains
 
@@ -25,19 +25,19 @@ A codebook is not only documentation; it is the central bridge between theory, h
 ## Annotation workflow
 
 1. **Pilot on heterogeneous material.** Include clear, borderline, and difficult cases.
-2. **Discuss disagreements as concept problems.** Do not only compute agreement; use disagreement to improve the codebook.
+2. **Discuss disagreements as concept problems.** Compute agreement, then use disagreement to improve the codebook.
 3. **Freeze a codebook version before gold annotation.** Keep a changelog.
 4. **Create separate train, development, and final test sets.** Never tune prompts or thresholds on the final test set.
 5. **Preserve original text and context.** Store target unit, context window, document ID, source, date, and metadata separately.
 6. **Adjudicate final labels.** For complex constructs, a reconciled expert label is usually better than raw majority voting.
 
-## Human reliability is diagnostic, not merely a threshold
+## Human reliability as diagnosis
 
-Low agreement can have several meanings: the construct is under-specified, the unit is too small, the codebook examples are insufficient, or the phenomenon is genuinely ambiguous. Treat reliability results as feedback for measurement design.
+Low agreement can mean several things: the construct is under-specified, the unit is too small, the codebook lacks examples, or the phenomenon is genuinely ambiguous. Treat reliability results as feedback for measurement design.
 
 ## Translate codebooks into prompts
 
-For LLM-based classification, a prompt should not merely paste a long manual codebook. Convert it into model-readable instructions:
+For LLM-based classification, do not paste a long manual codebook into the prompt. Convert it into model-readable instructions:
 
 ```text
 Task: Classify the target unit according to the codebook.
@@ -59,4 +59,4 @@ A strong low-cost workflow is:
 2. Send only disagreements and high-uncertainty cases to human adjudication.
 3. Use the reconciled labels as validation data or as training data for a supervised model.
 
-This is not a replacement for expert validation, but it can allocate human effort to cases where it matters most.
+This cannot replace expert validation, but it can direct human effort to the cases where it matters most.

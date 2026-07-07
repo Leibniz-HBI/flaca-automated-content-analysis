@@ -8,7 +8,7 @@ title: "8. Reporting and Reproducibility"
 
 # 8. Reporting and reproducibility
 
-A reader should be able to understand exactly how the measurement was produced, even when data cannot be fully shared. Automated content analysis is reproducible only when the research object, codebook, model, environment, and validation decisions are documented together.
+Readers should be able to understand exactly how the measurement was produced, even when data cannot be fully shared. Automated content analysis becomes reproducible when the research object, codebook, model, environment, and validation decisions are documented together.
 
 ## Methods appendix template
 
@@ -76,8 +76,8 @@ For every fine-tuned model, report:
 
 ## Ethical and legal notes
 
-Communication-science corpora often contain copyrighted news, personal social-media data, or politically sensitive speech. Data minimization and privacy-by-design matter. For sensitive texts, prefer local or institutionally controlled models unless the legal basis for external API processing is clear.
+Communication-science corpora often contain copyrighted news, personal social-media data, or politically sensitive speech. Data minimization and privacy-by-design matter. For sensitive texts, use local or institutionally controlled models unless the legal basis for external API processing is clear.
 
 ## Interpretation discipline
 
-Do not write “the model found” when the better statement is “the model classified according to our operationalization.” Automated labels are measurements under assumptions, not direct observations of social meaning.
+Avoid writing “the model found” when the better statement is “the model classified according to our operationalization.” Automated labels are measurements under assumptions, not direct observations of social meaning.

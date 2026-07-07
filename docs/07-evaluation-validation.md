@@ -8,7 +8,7 @@ title: "7. Evaluation and Validation"
 
 # 7. Evaluation and validation
 
-Evaluation is where automated content analysis becomes social-scientific measurement. A high score on an artificial benchmark is insufficient if the model fails on the real corpus, the rare class, or the downstream inference.
+Evaluation turns automated content analysis into social-scientific measurement. A high score on an artificial benchmark is not enough if the model fails on the real corpus, the rare class, or the downstream inference.
 
 ## Quality criteria
 
@@ -26,7 +26,7 @@ Evaluation is where automated content analysis becomes social-scientific measure
 Report more than accuracy:
 
 - **Confusion matrix**: shows systematic confusions.
-- **Per-class precision and recall**: essential for minority classes.
+- **Per-class precision and recall**: needed for minority classes.
 - **Macro-F1**: gives rare classes equal weight.
 - **Micro-F1 / accuracy**: useful only with distribution caveats.
 - **MCC or Cohen’s κ**: useful complementary agreement-style measures.
@@ -56,11 +56,11 @@ After quantitative evaluation, read examples. For each label, inspect:
 - disagreement between humans and model;
 - disagreement between model runs.
 
-Classify errors into conceptual ambiguity, missing context, source/genre shift, lexical shortcut, actor shortcut, negation/irony, parsing failure, and annotation error. This error typology should feed back into the codebook and model design.
+Classify errors into conceptual ambiguity, missing context, source/genre shift, lexical shortcut, actor shortcut, negation/irony, parsing failure, and annotation error. Use this typology to revise the codebook and model design.
 
 ## Downstream inference
 
-When model predictions become variables in regressions, diversity indices, trend lines, or outlet comparisons, prediction error can bias substantive results. Validate the specific quantity of interest, not only the label. For example, a model with acceptable macro-F1 may still distort frame diversity if it overpredicts one rare frame.
+When model predictions become variables in regressions, diversity indices, trend lines, or outlet comparisons, prediction error can bias substantive results. Validate the specific quantity of interest as well as the label. For example, a model with acceptable macro-F1 may still distort frame diversity if it overpredicts one rare frame.
 
 ## Minimum validation report
 

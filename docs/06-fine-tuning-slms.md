@@ -8,7 +8,7 @@ title: "6. Fine-tuning Smaller Language Models"
 
 # 6. Fine-tuning smaller language models
 
-Fine-tuning remains highly relevant for communication science because it creates a task-specific measurement instrument that can be versioned, rerun, audited, and shared more easily than many proprietary LLM workflows.
+Fine-tuning still matters for communication science because it creates a task-specific measurement instrument that can be versioned, rerun, audited, and shared more easily than many proprietary LLM workflows.
 
 ## When fine-tuning is attractive
 
@@ -38,7 +38,7 @@ Use supervised adaptation when:
 | Technique | Use case | Why it helps |
 |---|---|---|
 | Near-domain adaptation | Target task has few labels but related labelled data exists | Transfers task-relevant linguistic patterns |
-| Parameter-efficient fine-tuning | Compute or sharing constraints | Trains small adapters instead of the full model |
+| Parameter-efficient fine-tuning | Compute or sharing constraints | Trains small adapters without updating the full model |
 | PET-style classification | Few labels and meaningful label verbalizers | Uses label semantics instead of opaque class IDs |
 | Entity/person-name shuffling | Classifier overfits to prominent actors | Reduces spurious association between names and labels |
 | Class weights / resampling | Minority classes are rare | Increases attention to rare categories |
@@ -56,4 +56,4 @@ There is no universal minimum. For a first supervised comparison, a few hundred 
 - Repeat with several seeds.
 - Save exact library versions.
 - Export predictions for qualitative error analysis.
-- Report failure cases, not only aggregate scores.
+- Report failure cases as well as aggregate scores.

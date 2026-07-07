@@ -8,7 +8,7 @@ title: "3. Data Preparation"
 
 # 3. Data preparation
 
-Data preparation determines what the model can learn and what the validation result means. In FLACA-style communication research, preprocessing is not a neutral technical step; it operationalizes the unit of analysis and the context available to the model.
+Data preparation determines what the model can learn and what the validation result means. In FLACA-style communication research, preprocessing is part of measurement: it defines the unit of analysis and the context available to the model.
 
 ## Corpus construction
 
@@ -24,7 +24,7 @@ Document the following:
 
 ## Unitization and context
 
-Many communication-science categories do not live neatly at one level. A sentence may express the claim, but the stance target may be in the previous sentence. A paragraph may contain multiple positions. An article may be needed to interpret source attribution.
+Many communication-science categories do not sit neatly at one level. A sentence may express the claim, but the stance target may be in the previous sentence. A paragraph may contain multiple positions. An article may be needed to interpret source attribution.
 
 Use a table like this in the project repository:
 
@@ -55,7 +55,7 @@ Avoid splitting data at the sentence level when sentences from the same article 
 
 ## Handling imbalance
 
-Do not hide real imbalance. You may rebalance training data to help the model learn minority classes, but final validation should include a realistic distribution or explicitly report how prevalence differs from the target corpus.
+Do not hide real imbalance. You may rebalance training data to help the model learn minority classes, but final validation should include a realistic distribution or state how prevalence differs from the target corpus.
 
 Recommended practice:
 

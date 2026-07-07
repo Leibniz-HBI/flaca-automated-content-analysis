@@ -8,11 +8,11 @@ title: "5. LLM Prompting"
 
 # 5. LLM prompting
 
-LLMs are attractive because they can classify text from instructions alone. The same simplicity is the danger: a fluent answer can conceal unstable measurement. Treat LLM prompting as a formal measurement instrument, not as an informal chat.
+LLMs are attractive because they can classify text from instructions alone. That simplicity is also the danger: a fluent answer can conceal unstable measurement. Treat LLM prompting as a formal measurement instrument, not as an informal chat.
 
 ## Prompt structure
 
-A robust classification prompt usually has:
+A useful classification prompt usually has:
 
 1. **Role-independent task statement**: avoid theatrical roles; specify the classification task.
 2. **Construct definition**: concise operational definition.
@@ -34,7 +34,7 @@ For every serious LLM classification task:
 - Test semantically equivalent prompt variants.
 - Report agreement between prompt variants or runs.
 - Inspect disagreements as likely edge cases.
-- Keep raw model outputs, not only parsed labels.
+- Keep raw model outputs together with parsed labels.
 - Record provider, model ID, date, temperature, seed if supported, and system prompt.
 
 ## Recommended settings
@@ -75,4 +75,4 @@ Context after:
 
 ## When not to use LLM prompting alone
 
-Do not rely on prompting alone when the final claim depends on small differences in prevalence, rare classes, highly contested frames, or downstream regression coefficients. In these settings, either validate very carefully or use LLMs as annotation assistants rather than final measurement devices.
+Do not rely on prompting alone when the final claim depends on small differences in prevalence, rare classes, highly contested frames, or downstream regression coefficients. In these settings, validate very carefully or use LLMs as annotation assistants instead of final measurement devices.

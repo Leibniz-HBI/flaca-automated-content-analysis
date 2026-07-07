@@ -8,7 +8,7 @@ title: "4. Model Selection"
 
 # 4. Model selection
 
-There is no universally best model for automated content analysis. Model choice depends on construct complexity, training data, privacy constraints, reproducibility requirements, and the downstream quantity of interest.
+No model is best for every automated content analysis task. The choice depends on construct complexity, training data, privacy constraints, reproducibility requirements, and the downstream quantity of interest.
 
 ![Model choice map](assets/figures/model-choice.svg)
 
@@ -23,7 +23,7 @@ There is no universally best model for automated content analysis. Model choice 
 | Fine-tuned transformer / SLM | Moderate labels, task-specific accuracy needed | Overfitting, imbalance, compute needs | Per-class metrics, repeated runs |
 | PEFT / adapters | Need shareable, efficient task modules | More implementation complexity | Same as fine-tuning plus reproducibility check |
 | Prompted LLM | Rapid prototyping, low training data, codebook is clear | Prompt sensitivity, hidden model changes, hallucinated rationale | Human-labelled gold set, prompt stability test |
-| Hybrid LLM + human | Annotation budget is limited but validation is essential | Human review may still inherit model framing | Audit disagreement and adjudication logs |
+| Hybrid LLM + human | Annotation budget is limited but validation is still required | Human review may inherit model framing | Audit disagreement and adjudication logs |
 
 ## FLACA-derived model advice
 
@@ -35,7 +35,7 @@ There is no universally best model for automated content analysis. Model choice 
 
 ## Practical default
 
-For a new communication-science project with complex semantic categories:
+For a new communication-science project with complex semantic categories, a practical default is:
 
 1. Build a small gold set.
 2. Run a simple baseline.

@@ -33,4 +33,4 @@
 ## Final go/no-go decision
 
 - Conditions under which predictions may be scaled:
-- Conditions under which manual or hybrid coding remains necessary:
+- Conditions that require manual or hybrid coding:

@@ -8,7 +8,7 @@ title: "1. Scope and Design"
 
 # 1. Scope and design
 
-The first methodological decision is whether the target category is measurable with the available text, unit of analysis, and validation resources. In communication science, many categories are latent and theory-laden. A model may output labels for them, but that does not mean the labels measure the construct.
+Start by asking whether the target category can be measured with the available text, unit of analysis, and validation resources. In communication science, many categories are latent and theory-laden. A model can output labels for them, but the labels do not automatically measure the construct.
 
 ## Define the measurement object
 
@@ -24,7 +24,7 @@ Before collecting or modelling data, write down:
 
 ## Suitable and unsuitable categories
 
-A category is a good first candidate for automation when it is frequent enough to validate, has mutually exclusive rules, and can be identified by trained humans with acceptable reliability. It is a risky candidate when it depends on implicit irony, highly specialized background knowledge, long discourse context, or contested theoretical boundaries.
+A category is a good first candidate for automation when it appears often enough to validate, has mutually exclusive rules, and can be identified by trained humans with acceptable reliability. Risk rises when the category depends on implicit irony, highly specialized background knowledge, long discourse context, or contested theoretical boundaries.
 
 A useful rule is: **if trained coders cannot consistently apply the codebook after discussion, do not expect a model to solve the problem without re-operationalization.**
 
@@ -48,7 +48,7 @@ Use this paragraph template in preregistrations, methods appendices, and project
 
 ## Practical warning
 
-For rare categories, a small false-positive rate can create a large substantive distortion. This is especially important for claims, arguments, frames, and other categories that may appear in only a small share of all sentences or paragraphs.
+For rare categories, even a small false-positive rate can create a large substantive distortion. This matters for claims, arguments, frames, and other categories that may appear in only a small share of all sentences or paragraphs.
 
 ![The imbalance trap](assets/figures/imbalance-trap.svg)
 
